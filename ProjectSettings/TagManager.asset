@@ -44,12 +44,18 @@ TagManager:
   - name: Background
     uniqueID: 1151884279
     locked: 0
-  - name: Foreground
+  - name: Background_2
     uniqueID: 2501184401
     locked: 0
-  - name: Maliksi
+  - name: Foreground
     uniqueID: 1233589255
     locked: 0
-  - name: Particles
+  - name: Maliksi
     uniqueID: 3988857853
+    locked: 0
+  - name: Particles
+    uniqueID: 2665186427
+    locked: 0
+  - name: 
+    uniqueID: 1442956493
     locked: 0
