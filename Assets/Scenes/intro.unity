@@ -816,8 +816,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Alright, Bring it on!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
+  m_sharedMaterial: {fileID: -667295631127952546, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -908,7 +908,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &246281539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1448,8 +1448,8 @@ MonoBehaviour:
   m_text: In return for your help, I offer to guide you back to your world, Maliksi.
     Will you aid us in our time of need?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
+  m_sharedMaterial: {fileID: -667295631127952546, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1893,7 +1893,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &700087540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2148,8 +2148,8 @@ MonoBehaviour:
   m_text: But recently, the balance has been disrupted. Humans have unknowingly threatened
     our way of life, and we're in peril. We need your unique abilities to save us
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
+  m_sharedMaterial: {fileID: -667295631127952546, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2283,8 +2283,8 @@ MonoBehaviour:
   m_text: Sure, I can help you with that. But I'm not familiar with this place. Do
     you have a map we can use?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
+  m_sharedMaterial: {fileID: -667295631127952546, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2347,7 +2347,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &811984868
@@ -2601,8 +2601,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Who are you, and why am I here?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
+  m_sharedMaterial: {fileID: -667295631127952546, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2752,6 +2752,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 935380212}
   m_CullTransparentMesh: 1
+--- !u!1 &947089444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 947089446}
+  - component: {fileID: 947089445}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &947089445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947089444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d69c364c672910640985fd7c51640a4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  introVideoPlayer: {fileID: 9732686}
+  bgMusic: {fileID: 1162588636}
+  delayBeforeBgMusic: 2
+  fadeDuration: 2
+--- !u!4 &947089446
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947089444}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 442.39267, y: 645.4822, z: -4.212877}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1032097035
 GameObject:
   m_ObjectHideFlags: 0
@@ -2903,7 +2951,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1032995879
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3158,8 +3206,8 @@ MonoBehaviour:
   m_text: Maliksi, thank the spirits you've come! we need your help to save my kin,
     at Sitio Haraya they are in danger.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
+  m_sharedMaterial: {fileID: -667295631127952546, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3479,8 +3527,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: I don't have one, but there's a place here called the Balete tree
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
+  m_sharedMaterial: {fileID: -667295631127952546, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3657,15 +3705,15 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7d34b4f8226a67547a1d88674f760b43, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.55
-  m_Pitch: -0.98
-  Loop: 1
+  m_audioClip: {fileID: 8300000, guid: 5485f33d953e6194f8ab58f0dd81b4a0, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.78
+  m_Pitch: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 256
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -4500,8 +4548,8 @@ MonoBehaviour:
     We are protectors of the land and its secrets, and we've coexisted with humans
     for generations.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
+  m_sharedMaterial: {fileID: -667295631127952546, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4592,7 +4640,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1375932685
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4894,8 +4942,8 @@ MonoBehaviour:
   m_text: this tree is feared and associated with enchanted beings and paranormal
     activities. It is believed to contain portals to other realms.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
+  m_sharedMaterial: {fileID: -667295631127952546, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5028,8 +5076,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: That's unbelievable! How do I reach the Balete tree?
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
+  m_sharedMaterial: {fileID: -667295631127952546, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5120,7 +5168,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1570690498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5556,8 +5604,8 @@ MonoBehaviour:
     horse, known to enjoy getting people lost, causing hallucinations, and, from
     time to time, driving them insane.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
+  m_sharedMaterial: {fileID: -667295631127952546, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5648,7 +5696,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1664579652
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5971,8 +6019,8 @@ MonoBehaviour:
   m_text: You must navigate the maze, find your way out, and meet the Balete tree
     and Tikbalang with the map in his hand..
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
+  m_sharedMaterial: {fileID: -667295631127952546, guid: 051b29efa9ac0084284903cbecb15308, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6768,7 +6816,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2021178709
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7149,7 +7197,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2072001242
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7361,7 +7409,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2084353113
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7573,7 +7621,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2093411900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7726,7 +7774,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2123606305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7797,3 +7845,4 @@ SceneRoots:
   - {fileID: 1613886828}
   - {fileID: 1831335072}
   - {fileID: 1162588637}
+  - {fileID: 947089446}
