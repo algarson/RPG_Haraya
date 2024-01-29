@@ -30,17 +30,11 @@ public class DialogueTrigger : MonoBehaviour
 
     // Assuming you have a reference to the PlayableDirector
     public PlayableDirector playableDirector;
-    private ActivationTrackListener activationTrackListener;
+
 
     private void Start()
     {
-        // Assuming the ActivationTrackListener script is attached to the same GameObject
-        activationTrackListener = GetComponent<ActivationTrackListener>();
-
-        if (activationTrackListener != null)
-        {
-            activationTrackListener.OnActivationFinished += OnActivationFinished;
-        }
+       
     }
 
     private void OnActivationFinished()
