@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Orc_dead
+  m_Name: Tikbalang_charge
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,19 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 1875456576, guid: 28cd7e2fa89ebb645971a28496917559, type: 3}
-    - time: 0.25
-      value: {fileID: -1450414126, guid: 28cd7e2fa89ebb645971a28496917559, type: 3}
-    - time: 0.46666667
-      value: {fileID: -1093710486, guid: 28cd7e2fa89ebb645971a28496917559, type: 3}
-    - time: 0.71666664
-      value: {fileID: -1929183892, guid: 28cd7e2fa89ebb645971a28496917559, type: 3}
-    - time: 0.75
-      value: {fileID: -1929183892, guid: 28cd7e2fa89ebb645971a28496917559, type: 3}
-    - time: 0.78333336
-      value: {fileID: -1929183892, guid: 28cd7e2fa89ebb645971a28496917559, type: 3}
-    - time: 0.81666666
-      value: {fileID: -1929183892, guid: 28cd7e2fa89ebb645971a28496917559, type: 3}
+      value: {fileID: 21300000, guid: 087bbb1b452eb1147824d41a9d66e674, type: 3}
+    - time: 0.16666667
+      value: {fileID: 21300000, guid: ff2dceed5ba41b44fb38b6e5048a5a38, type: 3}
+    - time: 0.33333334
+      value: {fileID: 21300000, guid: aa06f03b2ebad3347a451400a7deac81, type: 3}
+    - time: 0.5
+      value: {fileID: 21300000, guid: 46e6722c67848ca4aa3b0f0aa10053b2, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -56,19 +50,16 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 1875456576, guid: 28cd7e2fa89ebb645971a28496917559, type: 3}
-    - {fileID: -1450414126, guid: 28cd7e2fa89ebb645971a28496917559, type: 3}
-    - {fileID: -1093710486, guid: 28cd7e2fa89ebb645971a28496917559, type: 3}
-    - {fileID: -1929183892, guid: 28cd7e2fa89ebb645971a28496917559, type: 3}
-    - {fileID: -1929183892, guid: 28cd7e2fa89ebb645971a28496917559, type: 3}
-    - {fileID: -1929183892, guid: 28cd7e2fa89ebb645971a28496917559, type: 3}
-    - {fileID: -1929183892, guid: 28cd7e2fa89ebb645971a28496917559, type: 3}
+    - {fileID: 21300000, guid: 087bbb1b452eb1147824d41a9d66e674, type: 3}
+    - {fileID: 21300000, guid: ff2dceed5ba41b44fb38b6e5048a5a38, type: 3}
+    - {fileID: 21300000, guid: aa06f03b2ebad3347a451400a7deac81, type: 3}
+    - {fileID: 21300000, guid: 46e6722c67848ca4aa3b0f0aa10053b2, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.8333333
+    m_StopTime: 0.51666665
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -88,8 +79,15 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.8
-    functionName: DestroyGameObjectWithDelay
+  - time: 0.16666667
+    functionName: ChargeTowardsPlayer
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.5
+    functionName: StopCharge
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

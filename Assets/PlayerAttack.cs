@@ -14,6 +14,8 @@ public class PlayerAttack : MonoBehaviour
 
     private int currentAttackDamage; // This will hold the damage of the current attack
 
+    public int CurrentAttackDamage { get; internal set; }
+
     void Update()
     {
         if (Input.GetMouseButtonDown(0)) // Left click attack
