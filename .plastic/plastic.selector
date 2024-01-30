@@ -1,0 +1,4 @@
+repository "RPG_Haraya@unity_897AC167841A41CE612D@cloud"
+  path "/"
+    br "/main"
+    co "/main"
