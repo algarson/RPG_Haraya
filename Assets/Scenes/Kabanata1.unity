@@ -1584,6 +1584,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 414855656}
   m_CullTransparentMesh: 1
+--- !u!1 &476567576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 476567577}
+  - component: {fileID: 476567578}
+  m_Layer: 5
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &476567577
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476567576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1745367229}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &476567578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476567576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50e2bf01861eaf149bfd5848e5607fa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneName: haraya
+  delayBeforeLoading: 132
 --- !u!1 &584121266
 GameObject:
   m_ObjectHideFlags: 0
@@ -4842,6 +4892,7 @@ GameObject:
   - component: {fileID: 1438660500}
   - component: {fileID: 1438660499}
   - component: {fileID: 1438660502}
+  - component: {fileID: 1438660503}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -4935,6 +4986,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b77a1db3d279304418cfae43fd97c649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1438660503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438660498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
 --- !u!1 &1460798475
 GameObject:
   m_ObjectHideFlags: 0
@@ -5899,7 +5994,6 @@ GameObject:
   - component: {fileID: 1745367227}
   - component: {fileID: 1745367226}
   - component: {fileID: 1745367230}
-  - component: {fileID: 1745367231}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -5999,6 +6093,7 @@ RectTransform:
   - {fileID: 2084353113}
   - {fileID: 2004056705}
   - {fileID: 2072001242}
+  - {fileID: 476567577}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -6063,19 +6158,6 @@ PlayableDirector:
     value: {fileID: 186523804}
   m_ExposedReferences:
     m_References: []
---- !u!114 &1745367231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1745367225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4e54f1202d1f7846bfe6641f3327bf3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fadeDuration: 2
 --- !u!1 &1756144330
 GameObject:
   m_ObjectHideFlags: 0
@@ -7268,6 +7350,7 @@ GameObject:
   - component: {fileID: 2072001242}
   - component: {fileID: 2072001244}
   - component: {fileID: 2072001243}
+  - component: {fileID: 2072001245}
   m_Layer: 5
   m_Name: Dialogue12 (Maliksi)
   m_TagString: Untagged
@@ -7335,6 +7418,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072001241}
   m_CullTransparentMesh: 1
+--- !u!114 &2072001245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072001241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50e2bf01861eaf149bfd5848e5607fa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneName: haraya
+  delayBeforeLoading: 5
 --- !u!1 &2073412977
 GameObject:
   m_ObjectHideFlags: 0
